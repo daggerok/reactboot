@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+.gradle/
+gradle/
+build/
+dist/
+node_modules/
+src/main/resources/public
+#*.ipr
+*.iws
+*.iml
+*.log*
+gradlew*

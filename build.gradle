@@ -1,0 +1,73 @@
+buildscript {
+  repositories {
+    jcenter()
+    maven { url 'https://repo.spring.io/milestone' }
+  }
+  ext { springBootVersion = '1.4.0.M3' }
+  dependencies {
+    classpath "org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion",
+              'com.github.ben-manes:gradle-versions-plugin:0.12.0'
+  }
+}
+
+plugins { id 'com.moowork.node' version '0.13' }
+
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+// gradle dependencyUpdates
+apply plugin: 'com.github.ben-manes.versions'
+
+version '1.0.0'
+
+jar { baseName = 'reactboot' }
+
+targetCompatibility = sourceCompatibility = 1.8
+
+repositories {
+  jcenter()
+  maven { url 'https://repo.spring.io/milestone' }
+}
+
+dependencies {
+  compile('org.springframework.boot:spring-boot-starter-actuator')
+  compile('org.springframework.boot:spring-boot-starter-data-mongodb')
+  compile('org.springframework.boot:spring-boot-starter-data-rest')
+  compile('org.springframework.boot:spring-boot-starter-hateoas')
+  compile('org.springframework.boot:spring-boot-starter-web')
+  compile('de.flapdoodle.embed:de.flapdoodle.embed.mongo')
+  compile('org.springframework.boot:spring-boot-devtools')
+  compile('org.projectlombok:lombok:1.16.6')
+  compile('org.springframework.boot:spring-boot-starter-security')
+  testCompile('org.springframework.boot:spring-boot-starter-test')
+}
+
+task start(   type: NpmTask) { args = ['start'          ] }
+task npmTest( type: NpmTask) { args = ['test'           ] }
+task npmBuild(type: NpmTask) { args = ['run', 'build'   ] }
+task eslint(  type: NpmTask) { args = ['run', 'eslint'  ] }
+task webpack( type: NpmTask) { args = ['run', 'webpack' ] }
+task watch(   type: NpmTask) { args = ['run', 'watch'   ] }
+task dev(     type: NpmTask) { args = ['run', 'dev'     ] }
+task serve(   type: NpmTask) { args = ['run', 'serve'   ] }
+task npmClean(type: NpmTask) { args = ['run', 'clean'   ] }
+
+start   .dependsOn npm_install
+npmTest .dependsOn npm_install
+npmBuild.dependsOn npm_install
+eslint  .dependsOn npm_install
+webpack .dependsOn npm_install
+dev     .dependsOn npm_install
+serve   .dependsOn npm_install
+npmClean.dependsOn npm_install
+
+
+test    .dependsOn npmTest
+npmBuild.dependsOn npmClean
+build   .dependsOn npmBuild
+bootRun .dependsOn webpack
+
+npmTest .shouldRunAfter test
+npmClean.shouldRunAfter clean
+npmBuild.shouldRunAfter npmClean
+build   .shouldRunAfter npmBuild

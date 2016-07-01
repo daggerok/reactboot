@@ -1,0 +1,26 @@
+language: java
+jdk: oraclejdk8
+language: node_js
+node_js: 6
+script:
+  - npm i
+  - npm test
+  - gradle build
+cache.directories:
+  - node_modules
+  - ~/.gradle
+  - .gradle
+
+language: java
+jdk: oraclejdk8
+before_install: nvm install 6
+script:
+  - npm i
+  - gradle build
+after_script: true & cat ui/*.log
+cache.directories:
+  - $HOME/.gradle
+  - $HOME/.m2
+  - node_modules/
+  - .gradle/
+notifications.on_failure: never #change #always

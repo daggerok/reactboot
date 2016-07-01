@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions/>
+    <wildcardResourcePatterns>
+      <entry name="!?*.java"/>
+      <entry name="!?*.form"/>
+      <entry name="!?*.class"/>
+      <entry name="!?*.groovy"/>
+      <entry name="!?*.scala"/>
+      <entry name="!?*.flex"/>
+      <entry name="!?*.kt"/>
+      <entry name="!?*.clj"/>
+      <entry name="!?*.aj"/>
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <processorPath useClasspath="true"/>
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8"/>
+  </component>
+  <component name="CopyrightManager" default=""/>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Desktop/monolith/monostore" value="1462386692000"/>
+        <entry key="$USER_HOME$/Desktop/odjug/config" value="1462190338000"/>
+        <entry key="$USER_HOME$/Desktop/odjug/config-crypt" value="1462264314000"/>
+        <entry key="$USER_HOME$/Desktop/odjug/discovery" value="1462202560000"/>
+        <entry key="$USER_HOME$/Desktop/odjug/fileserver" value="1462218730000"/>
+        <entry key="$USER_HOME$/Desktop/odjug/groovy-config" value="1462202128000"/>
+        <entry key="$USER_HOME$/Desktop/odjug/odjug" value="1462187004000"/>
+        <entry key="$USER_HOME$/Desktop/odjug/repo/fileclient" value="1462218740000"/>
+        <entry key="$USER_HOME$/Desktop/odjug/scala-config" value="1462211804000"/>
+        <entry key="$USER_HOME$/Desktop/odjug/security" value="1462286656000"/>
+        <entry key="$PROJECT_DIR$/../../../groovy/app/gst" value="1461407366000"/>
+        <entry key="$PROJECT_DIR$/../../cassandradata" value="1462813952000"/>
+        <entry key="$PROJECT_DIR$/../../redisdata" value="1462818785000"/>
+        <entry key="$PROJECT_DIR$/../../spring/data-flow/local-data-flow-server" value="1463343372000"/>
+        <entry key="$PROJECT_DIR$/../../spring/data-flow/local-data-flow-shell" value="1463343586000"/>
+        <entry key="$PROJECT_DIR$/../../spring/spring-boot-ssl" value="1462122934000"/>
+        <entry key="$PROJECT_DIR$/../../spring/spring-restoroud" value="4384361587000"/>
+        <entry key="$PROJECT_DIR$/../../spring/springleaf" value="1465329031000"/>
+        <entry key="$PROJECT_DIR$/../../../js/angular/spring-boot-angular-2" value="1463094387000"/>
+        <entry key="$PROJECT_DIR$/../../../js/angular/the-complete-guide-to-angular-2" value="1463089091000"/>
+        <entry key="$PROJECT_DIR$/../../../js/angular2/ang-ui" value="1464815452000"/>
+        <entry key="$PROJECT_DIR$/../../../js/react/spring-react" value="1465497633000"/>
+        <entry key="$PROJECT_DIR$/../../../ratpack/example-books" value="2934089246000"/>
+        <entry key="$PROJECT_DIR$/../../../ratpack/groovy-ratpack" value="2934113140000"/>
+        <entry key="$PROJECT_DIR$/../../../ratpack/groovy-templates" value="1467047475000"/>
+        <entry key="$PROJECT_DIR$/../../../ratpack/gtpl" value="1467045127000"/>
+        <entry key="$PROJECT_DIR$/../../../ratpack/ratpack-reverse-proxy" value="1466842862000"/>
+        <entry key="$PROJECT_DIR$/../../../ratpack/ratpackspringboot" value="1467039947000"/>
+        <entry key="$PROJECT_DIR$/../../../ratpack/springbootratpack" value="1467032041000"/>
+        <entry key="$USER_HOME$/code/test/java/spring/cloud/odjug" value="2923402572000"/>
+        <entry key="$USER_HOME$/code/test/java/spring/cloud/odjug-cloud" value="2922812882000"/>
+        <entry key="$USER_HOME$/code/test/java/spring/cloud/odjug-cloud/turbine" value="1461711518000"/>
+        <entry key="$USER_HOME$/code/test/java/spring/cloud/odjug/odjug-config" value="1461701891000"/>
+        <entry key="$USER_HOME$/code/test/java/spring/cloud/securme" value="1461961194000"/>
+        <entry key="$USER_HOME$/code/test/java/spring/spring-cloud-auth" value="5845760923000"/>
+        <entry key="$USER_HOME$/code/test/java/spring/spring-cloud-starter" value="2922831668000"/>
+        <entry key="$USER_HOME$/code/test/java/spring/spring-restoroud" value="4384363429000"/>
+        <entry key="$USER_HOME$/code/test/js/react/spring-react" value="1465505642000"/>
+        <entry key="$USER_HOME$/code/test/ratpack/ratpack-reverse-proxy" value="1466842862000"/>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view/>
+    </option>
+  </component>
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL"/>
+        <option name="externalProjectPath" value="$PROJECT_DIR$"/>
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/2.14/libexec"/>
+        <option name="gradleJvm" value="1.8"/>
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$"/>
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false"/>
+        <option name="useAutoImport" value="true"/>
+      </GradleProjectSettings>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)"/>
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add"/>
+    <OptionsSetting value="true" id="Remove"/>
+    <OptionsSetting value="true" id="Checkout"/>
+    <OptionsSetting value="true" id="Update"/>
+    <OptionsSetting value="true" id="Status"/>
+    <OptionsSetting value="true" id="Edit"/>
+    <ConfirmationsSetting value="0" id="Add"/>
+    <ConfirmationsSetting value="0" id="Remove"/>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module filepath="$PROJECT_DIR$/.idea/modules/reactboot.iml" fileurl="file://$PROJECT_DIR$/.idea/modules/reactboot.iml"/>
+      <module filepath="$PROJECT_DIR$/reactboot.iml" fileurl="file://$PROJECT_DIR$/reactboot.iml"/>
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" assert-jdk-15="true">
+    <output url="file://$PROJECT_DIR$/out"/>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle"/>
+    <property name="settings.editor.splitter.proportion" value="0.2"/>
+    <property name="project.structure.last.edited" value="Global Libraries"/>
+    <property name="project.structure.proportion" value="0.0"/>
+    <property name="project.structure.side.proportion" value="0.2"/>
+    <property name="last_opened_file_path" value="$USER_HOME$/code/test/java/spring/cloud"/>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name=""/>
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea"/>
+      <option name="PROGRAM_PARAMETERS"/>
+      <method/>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400"/>
+      <option name="HEIGHT" value="300"/>
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy"/>
+      <module/>
+      <method/>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="VM_PARAMETERS"/>
+      <option name="PROGRAM_PARAMETERS"/>
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="ENABLE_SWING_INSPECTOR" value="false"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <module name=""/>
+      <envs/>
+      <method/>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <module name=""/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="PACKAGE_NAME"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="METHOD_NAME"/>
+      <option name="TEST_OBJECT" value="class"/>
+      <option name="VM_PARAMETERS" value="-ea"/>
+      <option name="PARAMETERS"/>
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule"/>
+      </option>
+      <envs/>
+      <patterns/>
+      <method/>
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true"/>
+      <option name="SERVER_MODE" value="false"/>
+      <option name="SHMEM_ADDRESS" value="javadebug"/>
+      <option name="HOST" value="localhost"/>
+      <option name="PORT" value="5005"/>
+      <method/>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <module name=""/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="SUITE_NAME"/>
+      <option name="PACKAGE_NAME"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="METHOD_NAME"/>
+      <option name="GROUP_NAME"/>
+      <option name="TEST_OBJECT" value="CLASS"/>
+      <option name="VM_PARAMETERS" value="-ea"/>
+      <option name="PARAMETERS"/>
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$"/>
+      <option name="OUTPUT_DIRECTORY"/>
+      <option name="ANNOTATION_TYPE"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule"/>
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false"/>
+      <option name="PROPERTIES_FILE"/>
+      <envs/>
+      <properties/>
+      <listeners/>
+      <method/>
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../scala/lagom-java" value="1461405438000"/>
+        <entry key="$PROJECT_DIR$/../../lagom/my-first-system" value="1465711660000"/>
+        <entry key="$PROJECT_DIR$/../../../scala/javalagom" value="1462830779000"/>
+        <entry key="$PROJECT_DIR$/../../../scala/my-first-system" value="1462659004000"/>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view/>
+    </option>
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git"/>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-2.4.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2"/>
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2"/>
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2"/>
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2"/>
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
